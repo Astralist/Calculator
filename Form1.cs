@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     {
         Double val = 0;
         String text = "";
-        bool oper_Press = false;
+        bool oper_press = false;
 
         public Form1()
         {
@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
 
         private void button_click(object sender, EventArgs e)
         {
-            if (output.Text == "0") 
+            if ((output.Text == "0")||(oper_press))
             {
                 output.Clear();
             }
@@ -35,15 +35,14 @@ namespace WindowsFormsApplication1
             output.Text = output.Text + button.Text;
         }
 
-        private void oper_press(object sender, EventArgs e)
+ 
+
+        private void op_press(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             text = button.Text;
             val = Double.Parse(output.Text);
-
-
-
-        
+            oper_press = true;
         }
     }
 }
