@@ -11,6 +11,10 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
+        Double val = 0;
+        String text = "";
+        bool oper_Press = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +33,11 @@ namespace WindowsFormsApplication1
             }
             Button button = (Button)sender;
             output.Text = output.Text + button.Text;
+        }
+
+        private void oper_press(object sender, EventArgs e)
+        {
+        
         }
     }
 }
