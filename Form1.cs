@@ -37,6 +37,12 @@ namespace WindowsFormsApplication1
 
         private void oper_press(object sender, EventArgs e)
         {
+            Button button = (Button)sender;
+            text = button.Text;
+            val = Double.Parse(output.Text);
+
+
+
         
         }
     }
