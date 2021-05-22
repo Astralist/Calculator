@@ -225,6 +225,7 @@
             this.buttonEquals.TabIndex = 17;
             this.buttonEquals.Text = "=";
             this.buttonEquals.UseVisualStyleBackColor = true;
+            this.buttonEquals.Click += new System.EventHandler(this.Result);
             // 
             // output
             // 

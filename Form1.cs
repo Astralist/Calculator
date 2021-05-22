@@ -42,5 +42,10 @@ namespace WindowsFormsApplication1
             val = Double.Parse(output.Text);
             oper_press = true;
         }
+
+         private void Result(object sender, EventArgs e)
+         {
+
+         }
     }
 }
