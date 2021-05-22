@@ -35,9 +35,7 @@ namespace WindowsFormsApplication1
             output.Text = output.Text + button.Text;
         }
 
- 
-
-        private void op_press(object sender, EventArgs e)
+         private void Operation(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             text = button.Text;
