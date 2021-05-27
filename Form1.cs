@@ -9,13 +9,13 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
         Double val = 0;
         String text = "";
         bool oper_press = false;
 
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
         }
