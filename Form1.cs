@@ -45,7 +45,7 @@ namespace WindowsFormsApplication1
 
          private void Result(object sender, EventArgs e)
          {
-            switch(text);
+             switch (Text) { }
          }
     }
 }
